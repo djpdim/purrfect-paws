@@ -7,69 +7,91 @@
     max-height: 50%;
     background-color: var(--light);
     overflow: auto;
-    padding: .5rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
-    border-bottom-left-radius: .5rem;
-  }
-  
-  .cart h2 {
+    padding: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 0.5rem;
+}
+
+.cart h2 {
     font-size: 1.5rem;
     border-bottom: 1px solid var(--dark);
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
     margin: 1rem 0;
-  }
-  
-  .cart .close {
+}
+
+.cart .close {
     position: absolute;
-    top: .5rem;
-    right: .5rem;
+    top: 0.5rem;
+    right: 0.5rem;
     cursor: pointer;
     color: var(--tertiary);
-  }
-  
-  .cart .close:hover {
+}
+
+.cart .close:hover {
     text-decoration: underline;
-  }
-  
-  .cart-closed {
-    position: fixed;
+}
+
+.cart-closed {
+    background-image: url(https://m.media-amazon.com/images/G/01/AmazonBusiness/Rebranding/ab-cart-icon2x._CB485966036_.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 300px;
+    width: 38px;
+    top: -40px;
+    height: 26px;
+    /* position: fixed;
     top: 2%;
-    right: 1%;
+    right: 12%;
     font-size: 2rem;
     cursor: pointer;
     background-color: var(--secondary);
     border-radius: 50%;
-    padding: .25rem;
+    padding: 0.25rem;
     width: 50px;
-    height: 50px;
-  }
-  
-  .cart-closed:hover {
+    height: 50px; */
+}
+
+.cart-count {
+    height: 17px;
+    width: 17px;
+    color: #ff8f00;
+    font-family: "Amazon Ember";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    left: 23px;
+    right: 18px;
+}
+
+.cart-closed:hover {
     transform: rotate(8deg);
-  }
-  
-  .cart img {
+}
+
+.cart img {
     width: 50px;
     margin-right: 1rem;
-  }
-  
-  .cart input {
+}
+
+.cart input {
     width: 50px;
     padding: 0;
-    margin: 0 .5rem 1rem 0;
-  }
-  
-  @media screen and (max-width: 768px) {
+    margin: 0 0.5rem 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
     .cart {
-      position: relative;
-      max-width: 100%;
-      max-height: auto;
-      box-shadow: none;
-      background-color: inherit;
+        position: relative;
+        max-width: 100%;
+        max-height: auto;
+        box-shadow: none;
+        background-color: inherit;
     }
-  
+
     .cart-closed {
-      position: relative;
-      margin: 0 auto;
+        position: relative;
+        margin: 0 auto;
     }
-  }
+}

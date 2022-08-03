@@ -30,6 +30,6 @@
     "yarn": "^1.22.19"
   },
   "devDependencies": {
-    "concurrently": "^5.1.0"
+    "concurrently": "^5.3.0"
   }
 }

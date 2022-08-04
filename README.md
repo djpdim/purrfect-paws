@@ -21,7 +21,7 @@ From the root directory, type `npm start` to start the Express and GraphQL/Apoll
 
 ## Usage
 
-The application is deployed at: https://polar-island-23151.herokuapp.com/
+The application is deployed at: https://dp-purrfect-paws.herokuapp.com/
 
 You can log in as
 `fake@email.com`
